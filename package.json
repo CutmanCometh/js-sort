@@ -6,9 +6,11 @@
     "scripts": {
         "test": "jest",
         "test:watch": "jest --watch",
-        "test:coverage": "jest --collectCoverage true"
+        "test:coverage": "jest --collectCoverage true",
+        "stryke": "stryker run"
     },
     "devDependencies": {
+        "@stryker-mutator/core": "^5.5.0",
         "@types/jest": "^27.0.3",
         "eslint": "^8.3.0",
         "jest": "^27.3.1"
